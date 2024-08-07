@@ -1,0 +1,262 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background-color: rgb(85, 85, 85);
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+header > .a {
+    font-size: 50px;
+    cursor: pointer;
+}
+.a > #x {
+    text-decoration: none;
+    color: white;
+}
+.a > #x > span {
+    color: rgb(122, 200, 5);
+}
+.a > #y {
+    font-size: 25px;
+    color: rgb(218, 216, 216);
+    background-color: rgb(65, 64, 64);
+}
+.b > i {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+.b > i:hover {
+    background-color: black;
+    cursor: pointer;
+}
+.b > #z {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.b > #z:hover {
+    background-color: black;
+}
+.c {
+    background-image: url(img/hero_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.ab {
+    background-color: rgba(0, 0, 0, 0.477);
+    padding: 90px 0px;
+}
+.d {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.e > a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 14px;
+}
+.f {
+    text-align: center;
+    padding: 50px 0px;
+    color: white;
+}
+.f > h1 {
+    font-size: 3rem;
+}
+.f > p {
+    font-size: 1.5rem;
+}
+.f > button {
+    background: transparent;
+    border: none;
+    color: white;
+    margin: 10px 20px;
+    font-size: 1.5rem;
+}
+.f > #w {
+    background-color: rgb(62, 179, 248);
+    padding: 0px 15px;
+}
+.g {
+    display: flex;
+    justify-content: space-around;
+}
+.h {
+    background-color: white;
+    border: 2px solid white;
+    width: 23%;
+    padding: 40px 20px;
+}
+.h > img {
+    width: 25%;
+}
+.h > h1 {
+    font-size: 1.5rem;
+    margin: 20px 0px;
+}
+.h > button {
+    background: transparent;
+    border: none;
+    color: black;
+    margin: 20px 2px;
+    font-size: 1rem;
+}
+.i {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.j {
+    width: 40%;
+    padding: 60px;
+}
+
+.j > img {
+    width: 100%;
+    padding: 50px 0px;
+}
+.k {
+    width: 40%;
+    padding: 60px;
+}
+.j > h1 {
+    font-size: 3rem;
+}
+.k > h1 {
+    font-size: 3rem;
+}
+.k > p {
+    font-size: 1.5rem;
+    line-height: 50px;
+    padding: 50px 0px;
+}
+.l {
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 60px 0px;
+}
+.bb > p > span {
+    font-size: 3rem;
+    color: rgb(64, 64, 253);
+}
+.bb > p {
+    cursor: pointer;
+    font-size: 1.9rem;
+}
+.m {
+    padding: 60px 0px;
+    text-align: center;
+}
+.mm {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+.ad {
+    background-image: url(img/person_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    padding-top: 15%;
+    padding-bottom: 2%;
+}
+.bd {
+    background-image: url(img/person_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    padding-top: 15%;
+    padding-bottom: 2%;
+}
+.cd {
+    background-image: url(img/person_3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    padding-top: 15%;
+    padding-bottom: 2%;
+}
+.ddd {
+    background-color: white;
+    padding: 5px 20px ;
+    margin: 20px;
+}
+.m > h2 {
+    font-size: 4rem;
+} 
+.n {
+    background-color: rgb(232, 232, 232);
+    padding: 60px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.nop {
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+}
+.nnn {
+    width: 30%;
+    padding: 2%;
+    margin: 2% 0%;
+}
+.nnn > img {
+    width: 30%;
+}
+.n > button {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 1%;
+}
+.o {
+    padding: 60px 0px;
+    text-align: center;
+    width: 100%;
+}
+.oo {
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+   width: 100%;
+}
+.oo > img {
+    width: 35%;
+}
+.p {
+    background-color: rgb(232, 232, 232);
+    padding: 60px 0px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+.pp {
+    width: 15%;
+}
+.ppp {
+    padding: 40px 0px;
+}
+.ppp > p > i {
+    color: red;
+    font-size: 2rem;
+}
+.pp > i {
+    font-size: 2rem;
+}
